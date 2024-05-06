@@ -12,7 +12,8 @@ const teamMembers = [
         bio: 'yada yada'
 
 
-    }
+    },
+    
 ]
 
 function generateTeamCards(){
@@ -24,9 +25,17 @@ teamMembers.forEach(member => {
     card.classList.add('col-md-4') 
     card.innerHTML=`
         <div class="card">
+            <div class="card-header">
+                ${member.name}
+            </div>
+            <div class="card-body">
+            <p><strong>position:</strong> ${member.position}</p>
+            </div>
+        </div>
 
-
-    `       
+        
+    `   
+   teamCardsContainer.appendChild(card) 
     });
 
 
