@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.headerr{
+   color: white;
+   font-size: 50px;
+   font-family: "Titan One", sans-serif;
+   font-weight:100;
+   font-style: normal;
+}
+.card{
+    background-color: rgb(0, 0, 0);
+    font-family: "Grandiflora One", cursive;
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+}
+.card-header{
+color: rgb(255, 255, 255);
+background-color: black;
+border: double 6px;
+border-radius: 50px;
+font-family: "Gluten", cursive;
+font-size: 30px;
+  }
+
+.boldtry{
+    font-family: "Grandiflora One", cursive;
+    font-weight: 900;
+}
+
+  .plswork{
+    font-family: 'Homemade Apple', cursive;
+  }
+  .uhoh{
+    font-family: 'Englebert', cursive;
+    margin: 0;
+  }
+  a{
+    color: #C80101;
+    font-family: 'Englebert', cursive;
+  }
